@@ -1,5 +1,9 @@
- let nota = 75;
+let nota = 8
 
- let resultado =(nota >=60) ? "Aprovado" : "Reprovado";
-
- console.log(resultado);
+if (nota >= 7) {
+    console.log("Aluno aprovado");
+} else if (nota >= 5) {
+    console.log("Aluno em recuperação");
+} else {
+    console.log("Aluno reprovado");
+}
